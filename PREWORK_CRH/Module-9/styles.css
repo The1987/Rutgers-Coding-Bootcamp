@@ -1,0 +1,54 @@
+/* CSS DOCUMENT */
+
+
+h1 {
+	text-align: center;
+}
+
+p.red {
+	color: red;
+}
+
+p.blue {
+	color: blue;
+}
+
+p.green {
+	color: green;
+}
+
+p.big {
+	font-size: 24px;
+}
+
+p.small {
+	font-size: 12px;
+}
+
+p.center {
+	text-align: center;
+}
+
+p.bold {
+	font-weight: bold;
+}
+
+p.fontchange {
+	font-family: Arial;
+}
+
+p.multiplevar {
+	font-size: 22px;
+	font-weight: bold;
+	color: orange;
+}
+
+.styledFont {
+	color: green;
+}
+
+#styledImage {
+	border: 10px solid;
+	color: orange;
+}
+

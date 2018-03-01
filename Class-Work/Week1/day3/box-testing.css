@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+.box {
+    margin: 0px 20px;
+}
+
+.margin {
+    border: 1px solid skyblue;
+    background-color: skyblue;
+    margin: 20px;
+    
+}
+
+.border {
+    border: 1px solid yellowgreen;
+    background-color: yellowgreen;
+    margin: 20px;
+}
+
+.padding {
+    border: 1px solid orangered;
+    background-color: orangered;
+    margin: 20px;
+}
+
+.content {
+    border: 1px solid firebrick;
+    background-color: firebrick;
+    margin: 20px;
+}
+
+

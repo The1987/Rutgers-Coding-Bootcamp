@@ -1,0 +1,40 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    /*border: 1px solid red;*/
+    box-sizing: border-box;
+}
+
+
+
+h1 {
+    font-size: 40px;
+}
+
+.container {
+    margin: 0px 20%;
+}
+
+.box-1 {
+    background-color: #eee;
+    height: 50px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+.box-2 {
+    background-color: #eee;
+    height: 100px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.box-3 {
+    background-color: #333;
+    color: white;
+    height: 50px;
+    position: absolute;
+    top: 10px;
+    right: -30px;
+}
