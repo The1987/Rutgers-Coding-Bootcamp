@@ -1,0 +1,250 @@
+
+/*
+Style Sheet
+* Teal color (used for headings and backgrounds): `#4aaaa5`
+   * Regular font color (used for paragraphs and all text besides the headings): `#777777`
+   * Main header background color: `#ffffff`
+   * Main header border color: `#cccccc`
+   * Footer background color: `#666666`
+   * Main content background color: `#ffffff`
+   * Main content border color: `#dddddd`
+
+2. Fonts:
+   * For heading fonts use `font-family: 'Georgia', Times, Times New Roman, serif;`.
+   * For all other fonts use `'Arial', 'Helvetica Neue', Helvetica, sans-serif;`.
+   */
+
+* {
+    box-sizing: border-box;   
+}
+
+/* Fonts */
+
+h1 {
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #4aaaa5; /*Green*/
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 20px;
+    text-align: center;
+}
+
+h2, h3 {
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+h2, h3, .heading-1 {
+    font-family: Georgia, Times, Times New Roman, serif;
+    color: #4aaaa5;
+}
+
+h4 {
+    font-family: Georgia, Times, Times New Roman, serif;
+}
+
+p, .heading-2, span, .button {
+   font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+   font-size: 16px;
+}
+
+span {
+    color: grey;
+}
+
+body {
+    background: url("../images/yellow.png") no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+/* Badge */
+#badge {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 140px;
+    width: 300px;
+    height: 86px;
+    background-color: #4aaaa5; /*Green*/
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+}
+
+/* Navigation Bar */
+header {
+    width: 100%;
+    margin-bottom: 40px;
+    border-bottom: 2px solid grey;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff; /*White*/
+}
+
+li {
+    float: left;
+}
+
+.heading-1 {
+    margin: 0px;
+    padding: 40px 30px;
+    font-size: 24px;
+}
+
+li a {
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.heading-2 {
+    margin-right: 20px;
+    padding: 20px 0px;
+}
+
+/* Sections */
+section {
+    margin-bottom: 100px;  
+}
+
+section p {
+    padding: 0px;   
+}
+
+/* Left Section */
+.left-section {
+    float: left;
+    height: 100%;
+    width: 650px;
+    margin-left: 140px;
+    padding: 20px;
+    border: 1px solid grey;
+    background-color: #ffffff; /*White*/
+}
+
+#about-image {
+    float: left;
+    height: 200px;
+    width: 200px;
+    padding-right: 10px; 
+}
+
+.form-field {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid grey;
+}
+
+.button {
+    background-color: #4aaaa5; /*Green*/
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.portfolio-image {
+    width: 40%;
+    height: 40%;
+}
+
+/* PORTFOLIO GALLERY */
+.module-1, .module-2, .module-3, .module-4, .module-5 {
+    margin: 10px;
+    width: 280px;
+    height: 200px;
+    float: left;
+    background-size: cover;
+    position: relative;
+}
+  
+.module-1 {
+    background: url(../images/image-1.jpg);
+}
+
+.module-2 {
+    background: url(../images/image-2.jpg);
+}
+
+.module-3 {
+    background: url(../images/image-3.jpg);
+}
+
+.module-4 {
+    background: url(../images/image-4.jpg);
+  }
+
+.module-5 {
+    background: url(../images/image-5.jpg);
+}
+  
+h4 {
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    background-color:#4aaaa5;
+    padding: 4px 60px;
+    color: white;
+    margin: 0;
+}
+  
+.opp h4 {
+    background: #4aaaa5;
+    color: white;
+    padding: 0px 100px;
+    text-align: center;
+}
+
+
+
+/* Right Section */
+.right-section {
+    display: block;
+    width: 270px;
+    float: left;
+    margin-left: 40px;
+    padding: 20px;
+    border: 1px solid grey;
+    background-color: #ffffff; /*White*/
+    text-align: center;
+}
+
+.right-section img{
+    display: inline-block;
+    margin: 0 auto;
+    width: 30%;
+}
+
+
+footer {
+    clear: both;
+    background-color: #666666; /*Grey*/
+    padding: 40px 0px;
+    text-align: center;
+    border-top: 6px solid teal;
+    color: white;
+    font-size: 12px;
+    
+}
