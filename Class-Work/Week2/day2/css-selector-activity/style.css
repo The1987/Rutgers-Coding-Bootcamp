@@ -1,0 +1,24 @@
+
+* {
+    font-family: Arial;
+    font-size: 20px;
+    /*color: black;*/
+    
+}
+
+h1:active {
+background-color: red;
+/*border: 10px double white;*/
+}
+
+h2:hover {
+background-color: yellow;
+}
+
+h3:focus {
+background-color: green;
+}
+
+h4:fullscreen {
+background-color: purple;  
+}

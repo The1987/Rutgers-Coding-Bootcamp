@@ -1,0 +1,23 @@
+/** Paragraph 1 **/
+.p1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    line-height: 10px;
+    font-weight: 100
+}
+
+/** Paragraph 2 **/
+.p2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 300
+}
+
+/** Paragraph 3 **/
+.p3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-size: 24px;
+    line-height: 8px;
+    font-weight: bold;
+}
